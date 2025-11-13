@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify Clone </title>
+</head>
+<body>
+<nav>
+    <ul>
+        <li class="brand"><img src="logo.png" alt="spotify-logo">🎶 Music Player ✌️ </img></li>
+        <h5>Enjoy ur Music</h5>
+    </ul>
+    
+</nav>
+<div class="container">
+        <div class="songsList">
+            <h1>Playlist</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName"></span>
+                    <span class="songlistPlay"> <span class="timeStamp">4:23<i id=0 class="far songPlay fa-2x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName"></span>
+                    <span class="songlistPlay"> <span class="timeStamp">4:23<i id=1 class="far songPlay fa-2x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName"></span>
+                    <span class="songlistPlay"> <span class="timeStamp">4:23<i id=2 class="far songPlay fa-2x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName"></span>
+                    <span class="songlistPlay"> <span class="timeStamp">4:23<i id=3 class="far songPlay fa-2x fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songsBanner"></div>
+</div>
+<div class="bottom">
+    <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+    <div class="icons">
+        <!-- Fontawesome icons -->
+        <i class="fas fa-3x fa-step-backward" id="previous"></i>
+        <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+        <i class="fas fa-3x fa-step-forward" id="next"></i>
+    </div>
+    <div class="songInfo">
+        <img src="playing.gif"  width="40px" id="gif"><span id="songTitle">Warriyo - Mortals [NCS Release]</span>
+    </div>
+</div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+</html>
